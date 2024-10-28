@@ -1,6 +1,6 @@
 {
   "name": "shopping-cart",
-  "homepage": "https://<username>.github.io/shopping-cart",
+  "homepage": "https://pradnya-gawai.github.io/shopping-cart",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,7 +17,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "babel src --out-dir dist",
+    "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
@@ -42,7 +42,6 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-optional-chaining-assign": "^7.25.9",
     "gh-pages": "^6.2.0"
   }
 }

@@ -1,6 +1,14 @@
 {
-  "presets": ["@babel/preset-env"],
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-react"
+  ],
   "plugins": [
-    ["@babel/plugin-proposal-optional-chaining", { "version": "2023-07" }]
+    [
+      "@babel/plugin-proposal-optional-chaining",
+      {
+        "version": "2023-07"
+      }
+    ]
   ]
 }
